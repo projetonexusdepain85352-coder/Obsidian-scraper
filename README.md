@@ -1,4 +1,4 @@
-# claude_to_obsidian
+# Claude, ChatGPT e DeepSeek to Obsidian
 
 > ⚠️ **Projeto vibecodado, feito no meu tempo livre.**
 > Funciona no meu setup — pode não funcionar no seu. Sem garantias, sem suporte formal, sujeito a bugs, quebras inesperadas e decisões questionáveis de design. Use por sua conta e risco.
@@ -85,6 +85,11 @@ Com vault customizado:
 ```powershell
 .\scraper.ps1 -Vault "D:\MeuVault"
 ```
+
+> ⚠️ **O `scraper.ps1` foi escrito para o meu ambiente específico.**
+> Ele assume que a pasta `Claude Data` fica dentro de uma estrutura no Desktop/OneDrive com nomes em português (`Área de Trabalho`, `Obsidian`, etc.).
+> Se o seu setup for diferente, abra o arquivo e ajuste os caminhos nas primeiras linhas — está comentado o suficiente para ser adaptado.
+> Em caso de dúvida, use o Python diretamente (veja abaixo).
 
 **Qualquer OS (direto pelo Python):**
 ```bash
